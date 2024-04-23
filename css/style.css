@@ -73,6 +73,10 @@ body {
     margin: 0px 50px 20px;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 .text {
     padding-left: 5px;
     padding-bottom: 10px;
@@ -86,6 +90,7 @@ body {
     width: 20px;
     border-radius: 50%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .cross {
@@ -94,8 +99,65 @@ body {
     border: 2px solid  red;
     height: 20px;
     width: 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+/* label colors */
+
+.lblue {
+    background-color: #66AAED;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+}
+
+.violet {
+    background-color: #9676DF;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+}
+
+.dgreen {
+    background-color: #7BBCAA;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+}
+
+.orange {
+    background-color: #E7A04E;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+}
+
+.dpink {
+    background-color: #CB6A9E;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
+}
+
+.lgreen {
+    background-color: #B4C74E;
+    color: white;
+    padding: 5px 15px 5px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 5px;
 }
 
 /* &#9660; freccia */
