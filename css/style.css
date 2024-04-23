@@ -13,13 +13,16 @@ header {
 }
 
 #logoimg {
-    height: 30px;
+    height: 100px;
     vertical-align: middle;
     text-align: center;
 }
 
-#title {
+#pageTitle {
+    display: inline;
+    vertical-align: middle;
     font-weight: bold;
+    font-size: 30px;    
 }
 
 /* grey container */
@@ -73,7 +76,7 @@ body {
     margin: 0px 50px 20px;
 }
 
-h1 {
+.taskTitle {
     margin-bottom: 20px;
 }
 
