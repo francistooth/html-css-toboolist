@@ -36,7 +36,7 @@ body {
 
 /* button section */
 
-#buttonContainer {
+.buttonContainer {
     height: auto;
     width: auto;
     margin: 50px 300px 5px;
@@ -65,7 +65,7 @@ body {
 
 /* task section */
 
-#taskContainer {
+.taskContainer {
     height: auto;
     width: auto;
     margin: 0px 300px 25px;
@@ -162,5 +162,3 @@ body {
     border: none;
     margin-right: 5px;
 }
-
-/* &#9660; freccia */
