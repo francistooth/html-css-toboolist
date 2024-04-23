@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-    <!-- header (logo + text) -->
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <!-- header (logo + text) -->
 
-    <header>
-        <img src="img/Logo.png" alt="boolean logo">
-        <h1> Toboolist </h1>
-    </header>
+        <header>
+            <img src="img/Logo.png" alt="boolean logo" id="logoimg">
+            <span id="title"> Toboolist </span>
+        </header>
 
-    <!-- container div grey bg -->
+        <!-- button section -->
 
-    <!-- button section -->
+        <div id="buttonContainer">
+            <section class="buttons">
+                <button class="addBlue"> Add Task </button>
+                <button class="addWhite"> Add Section </button>
+            </section>
+        </div>
 
-    <!-- new task section -->
+        <!-- task section -->
 
-    <!-- today's section -->
+        <div id="taskContainer">
+            <!-- new task section -->
 
-    <!-- upcoming section -->
+            <section class="task">
+                <h1> &#9662; New Task </h1>
+                <div class="check">&#10003;</div> <span class="text"> Quarterly Newsletter</span>
+            </section>
 
-</body>
+            <!-- today's section -->
+            
+            <section class="task">
+                <h1> &#9662; Today </h1>
+                <div class="check">&#10003;</div> <span class="text"> Recruiting Blog Post </span> <br>
+                <div class="check">&#10003;</div> <span class="text"> Mobile App launch </span> <br>
+                <div class="cross">&#10006;</div> <span class="text"> Interview John H. </span> <br>
+                <div class="check">&#10003;</div> <span class="text"> Summit update to mobile storefronts </span> 
+            </section>
+
+            <!-- upcoming section -->
+        </div>
+    </body>
 </html>
