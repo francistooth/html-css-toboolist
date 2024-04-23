@@ -13,9 +13,10 @@ header {
 }
 
 #logoimg {
-    height: 100px;
+    height: 60px;
     vertical-align: middle;
     text-align: center;
+    margin-left: 20px;
 }
 
 #pageTitle {
